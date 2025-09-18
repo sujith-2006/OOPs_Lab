@@ -36,8 +36,8 @@ class LinkedList:
         temp.next = newNode
     
     def deleteNode(self, position):
-        if (self.count == 0):
-            print("Empty Linked List!")
+        if (self.head == None):
+            print("Empty Linked List")
             return
         if (position == 1):
             temp = self.head.next
